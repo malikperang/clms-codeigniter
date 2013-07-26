@@ -1,4 +1,0 @@
-[06-Jul-2013 00:00:38 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected T_STRING in /home/maximuse/public_html/invoicesystem/application/controllers/data_form.php on line 93
-[06-Jul-2013 05:40:40 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function form_open_multipart() in /home/maximuse/public_html/invoicesystem/application/controllers/home.php on line 2
-[06-Jul-2013 05:40:46 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function form_open_multipart() in /home/maximuse/public_html/invoicesystem/application/controllers/home.php on line 2
-[06-Jul-2013 05:40:54 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function form_open_multipart() in /home/maximuse/public_html/invoicesystem/application/controllers/home.php on line 2
