@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-Client Management System 1.0
+<h1>Client Management System 1.0</h1>
 
 Apa itu Client Management System?
 
@@ -10,6 +9,3 @@ CLMS dibangun menggunakan php5.x.x dan MySQL untuk database.
 
 PENGUMUMAN!
 Versi CLMS ini tidak dibangunkan secara sumber terbuka dan kurang kestabilan.Untuk kegunaan masa panjang,tunggu keluaran CLMS versi terbaru.
-=======
-Testing github
->>>>>>> 6311b3031ac4d1cfae85df76b4e7ada78a1b4437
