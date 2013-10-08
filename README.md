@@ -7,5 +7,3 @@ Client Management System(CLMS) adalah sebuah sistem pengurusan pelanggan yang me
 
 CLMS dibangun menggunakan Codeigniter PHP Framework versi 3.0,php5.x.x dan MySQL untuk database.
 
-PENGUMUMAN!
-Versi CLMS ini tidak dibangunkan secara sumber terbuka dan kurang kestabilan.Untuk kegunaan masa panjang,tunggu keluaran CLMS versi terbaru.
