@@ -1,0 +1,245 @@
+body {
+  background-color: none ;
+}
+.my-button
+{
+  display: inline;
+  border:1px solid black;
+}
+/*temporary for dev purpose*/
+.border{
+  border:1px solid black;
+}
+.border-red
+{
+  border:1px solid red;
+}
+.border-lime
+{
+  border:1px solid lime;
+}
+.overflow
+{
+  overflow: auto;
+}
+.border-blue
+{
+  border:2px solid blue;
+}
+.full-height
+{
+  height: 100%;
+}
+/*end*/
+.banner{
+  box-shadow: 0 1px 0.4em rgba(0, 0, 0, 0.5);
+  width:1000px;
+  height:100px;
+}
+p{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+tbody{
+  border-radius: none;
+}
+table tr td{
+  font-size:0.9em;
+  border-radius: none;
+}
+table tr th{
+  font-size:0.9em;
+  border-radius: none;
+  text-align: center;
+  border:none;
+}
+.table-color th
+{
+  background-color:#006D4C;
+  color: white;
+}
+.edit-table tr td:first-child
+{
+  width: 100px;
+  background-color: #ddd;
+}
+.edit-table tr td:nth-child(2)
+{
+  width: 300px;
+  background-color: red;
+}
+}
+.query-table td
+{
+  width:200px;
+}
+.query-table tr td:nth-child(3)
+{
+  width: 50px;
+}
+.left-panel li
+{
+  background: white;
+}
+.navi {
+  display: inline-block;
+  background: #333;
+  background: -moz-linear-gradient(top,  #333 0%, #000 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#333), color-stop(100%,#000));
+  background: -webkit-linear-gradient(top,  #333 0%,#000 100%);
+  background: -o-linear-gradient(top,  #333 0%,#000 100%);
+  background: -ms-linear-gradient(top,  #333 0%,#000 100%);
+  background: linear-gradient(to bottom,  #333 0%,#000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333', endColorstr='#000',GradientType=0 );
+  box-shadow: 0 1px 0.4em rgba(0, 0, 0, 0.5);
+  margin:0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  font-size: 1.3em;
+}
+.navi li {
+  float: left;
+  list-style: none;
+  margin:0;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+.navi li:first-child {
+  /*border-radius: 4px 0 0 4px;*/
+  overflow: hidden;
+}
+.navi li:last-child {
+  overflow: hidden;
+}
+.navi li a {
+  color: #ddd;
+  display: block;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size:0.8em;
+  padding: 10px 26px;
+  text-decoration: none;
+}
+.navi li a:hover {
+  background: #35d4a4 ;
+  background: -moz-linear-gradient(top,  #35d4a4 0%, #35d4a4  100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#35d4a4 ), color-stop(100%,#b2005f));
+  background: -webkit-linear-gradient(top,  #35d4a4  0%,#35d4a4  100%);
+  background: -o-linear-gradient(top,  #35d4a4 0%,#35d4a4  100%);
+  background: -ms-linear-gradient(top,  #35d4a4  0%,#35d4a4  100%);
+  background: linear-gradient(to bottom,  #35d4a4 0%,#35d4a4  100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35d4a4 ', endColorstr='#b2005f',GradientType=0 );
+  color: #fff;
+}
+
+.wrapper{
+padding: 5px;
+background-color: white;
+border-bottom: 1px solid #CDCDCD;
+box-shadow: 0 1px 0.4em rgba(0, 0, 0, 0.5);
+}
+.widget-small
+{
+  box-shadow: 0 1px 0.4em rgba(0, 0, 0, 0.1);
+  padding: 4px;
+  border:1px solid #ddd;
+  background-color: white;
+}
+.widget {
+  padding: 5px;
+  background-color: #efefef;
+  background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#fdfdfd), to(#eaeaea));
+  background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+  background-image: -moz-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+  background-image: -ms-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+  background-image: -o-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+  background-image: -linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#eaeaea',GradientType=0 );
+  font-family: segoe ui, verdana, arial, sans-serif;
+  border:1px solid #ddd;
+}
+.widget-title
+{
+  text-align: center;
+  background-color:#006D4C !important;
+  color:white;
+  border:1px solid #006D4C ;
+  box-shadow: 0 1px 0.4em rgba(0, 0, 0, 0.5);
+}
+.widget-table
+{
+  padding: 5px;
+  background-color: #efefef;
+  background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#fdfdfd), to(#eaeaea));
+  background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+  background-image: -moz-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+  background-image: -ms-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+  background-image: -o-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+  background-image: -linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#eaeaea',GradientType=0 );
+  margin-top: 10px;
+  font-family: segoe ui, verdana, arial, sans-serif;
+  border:1px solid #ddd;
+}
+.widget-table tr td
+{
+  background-color: white;
+}
+.general-form
+{
+  margin-left: -30px;
+}
+.image-widget
+{
+  text-align: center;
+}
+.profile-image
+{
+  width: 200px;
+  height:300px;
+}
+/**/
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   speak for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+/**/
+.footer{
+  padding: 5px;
+  text-align: center;
+  background: #333;
+  background: -moz-linear-gradient(top,  #333 0%, #000 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#333), color-stop(100%,#000));
+  background: -webkit-linear-gradient(top,  #333 0%,#000 100%);
+  background: -o-linear-gradient(top,  #333 0%,#000 100%);
+  background: -ms-linear-gradient(top,  #333 0%,#000 100%);
+  background: linear-gradient(to bottom,  #333 0%,#000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333', endColorstr='#000',GradientType=0 );
+  box-shadow: 0 1px 0.4em rgba(0, 0, 0, 0.5);
+  font-size:1.0em;
+  color:white;
+}/*
